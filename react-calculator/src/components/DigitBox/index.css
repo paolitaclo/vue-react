@@ -1,0 +1,7 @@
+.digit-box {
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    border: 2px solid red;
+    background-color: coral;
+}

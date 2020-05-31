@@ -1,0 +1,51 @@
+.digits-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.digits-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.digit-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.display-container {
+    background-color: darkgrey;
+    height: 100px;
+}
+
+.calculator {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 416px;
+    justify-content: center;
+}
+
+.display-text {
+    color: black;
+}
+
+.secondary-row-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.operations-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.streched {
+    flex-grow: 2;
+}
+
+.operator {
+    background-color: aliceblue;
+}
