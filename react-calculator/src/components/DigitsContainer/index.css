@@ -10,11 +10,11 @@
     width: 100%;
 }
 
-.digit-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/*.digit-box {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
 .display-container {
     background-color: darkgrey;
     height: 100px;
@@ -42,10 +42,6 @@
     flex-direction: column;
 }
 
-.streched {
+.stretched {
     flex-grow: 2;
-}
-
-.operator {
-    background-color: aliceblue;
 }

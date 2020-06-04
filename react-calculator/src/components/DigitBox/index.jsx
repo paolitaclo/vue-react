@@ -1,9 +1,9 @@
 import React from 'react';
 import './index.css';
 
-const DigitBox = ({ digitNumnber, onSelectDigit, className }) =>
-    (<div className={`digit-box${className ? ` ${className}` : ''}`} onClick={() => onSelectDigit(digitNumnber)}>
-        {digitNumnber}
+const DigitBox = ({ digitNumber, onSelectDigit, styledBox }) =>
+    (<div className={`digit-box${styledBox ? ` ${styledBox}` : ''}`} onClick={() => onSelectDigit(digitNumber)}>
+        {digitNumber}
     </div>);
 
 export default DigitBox;

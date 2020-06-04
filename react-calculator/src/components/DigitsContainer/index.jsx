@@ -10,10 +10,6 @@ export default class DigitsContainer extends Component {
         };
     }
 
-    onChangeDisplay = event => {
-        this.setState({ display: event.target.value });
-    };
-
     reset = () => {
         this.setState({ display: '' });
     };
@@ -53,41 +49,41 @@ export default class DigitsContainer extends Component {
                 <div className="secondary-row-container">
                     <div className="digits-container">
                         <div className="digits-row">
-                            <DigitBox className="operator" digitNumnber={'C'} onSelectDigit={this.onClick} />
-                            <DigitBox className="operator" digitNumnber={'CE'} onSelectDigit={this.onClick} />
-                            <DigitBox className="operator" digitNumnber={'/'} onSelectDigit={this.onClick} />
+                            <DigitBox styledBox="operator" digitNumber={'C'} onSelectDigit={this.onClick} />
+                            <DigitBox styledBox="operator" digitNumber={'CE'} onSelectDigit={this.onClick} />
+                            <DigitBox styledBox="operator" digitNumber={'/'} onSelectDigit={this.onClick} />
                         </div>
                         <div className="digits-row">
-                            <DigitBox digitNumnber={7} onSelectDigit={this.onClick} />
-                            <DigitBox digitNumnber={8} onSelectDigit={this.onClick} />
-                            <DigitBox digitNumnber={9} onSelectDigit={this.onClick} />
+                            <DigitBox digitNumber={7} onSelectDigit={this.onClick} />
+                            <DigitBox digitNumber={8} onSelectDigit={this.onClick} />
+                            <DigitBox digitNumber={9} onSelectDigit={this.onClick} />
                         </div>
                         <div className="digits-row">
-                            <DigitBox digitNumnber={4} onSelectDigit={this.onClick} />
-                            <DigitBox digitNumnber={5} onSelectDigit={this.onClick} />
-                            <DigitBox digitNumnber={6} onSelectDigit={this.onClick} />
+                            <DigitBox digitNumber={4} onSelectDigit={this.onClick} />
+                            <DigitBox digitNumber={5} onSelectDigit={this.onClick} />
+                            <DigitBox digitNumber={6} onSelectDigit={this.onClick} />
                         </div>
                         <div className="digits-row">
-                            <DigitBox digitNumnber={1} onSelectDigit={this.onClick} />
-                            <DigitBox digitNumnber={2} onSelectDigit={this.onClick} />
-                            <DigitBox digitNumnber={3} onSelectDigit={this.onClick} />
+                            <DigitBox digitNumber={1} onSelectDigit={this.onClick} />
+                            <DigitBox digitNumber={2} onSelectDigit={this.onClick} />
+                            <DigitBox digitNumber={3} onSelectDigit={this.onClick} />
                         </div>
                         <div className="digits-row">
                             <DigitBox
-                                className="streched"
-                                digitNumnber={0}
+                                styledBox="stretched"
+                                digitNumber={0}
                                 onSelectDigit={this.onClick}
                             />
-                            <DigitBox digitNumnber={'.'} onSelectDigit={this.onClick} />
+                            <DigitBox digitNumber={'.'} onSelectDigit={this.onClick} />
                         </div>
                     </div>
                     <div className="operations-container">
-                        <DigitBox className="operator" digitNumnber={'*'} onSelectDigit={this.onClick} />
-                        <DigitBox className="operator" digitNumnber={'+'} onSelectDigit={this.onClick} />
-                        <DigitBox className="operator" digitNumnber={'-'} onSelectDigit={this.onClick} />
+                        <DigitBox styledBox="operator" digitNumber={'*'} onSelectDigit={this.onClick} />
+                        <DigitBox styledBox="operator" digitNumber={'+'} onSelectDigit={this.onClick} />
+                        <DigitBox styledBox="operator" digitNumber={'-'} onSelectDigit={this.onClick} />
                         <DigitBox
-                            className="streched operator"
-                            digitNumnber={'='}
+                            styledBox="stretched operator"
+                            digitNumber={'='}
                             onSelectDigit={this.onClick}
                         />
                     </div>

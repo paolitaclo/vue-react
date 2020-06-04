@@ -1,5 +1,5 @@
 <template>
-    <div class='calculator'>
+    <div class="calculator">
         <div class="display-container">
             <h2 class="display-text">{{display}}</h2>
         </div>
