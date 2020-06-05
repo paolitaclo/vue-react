@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import DigitContainer from './components/DigitContainer/index'
+import DigitContainer from './components/DigitsContainer'
 
 export default {
   name: 'App',

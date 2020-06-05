@@ -41,10 +41,10 @@
 </template>
 
 <script>
-    import DigitBox from '../DigitBox';
+    import DigitBox from './DigitBox';
 
     export default {
-        components: {DigitBox},
+        components: { DigitBox },
         data() {
             return {
                 display: ''
