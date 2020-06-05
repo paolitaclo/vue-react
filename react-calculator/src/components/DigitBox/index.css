@@ -1,14 +1,14 @@
 .digit-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: coral;
-    font-size: 50px;
-    border: 2px solid red;
-    height: 100px;
-    width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: coral;
+  font-size: 50px;
+  border: 2px solid red;
+  height: 100px;
+  width: 100px;
 }
 
 .operator {
-    background-color: aliceblue;
+  background-color: aliceblue;
 }

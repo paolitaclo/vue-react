@@ -1,47 +1,42 @@
 .digits-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .digits-row {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
-/*.digit-box {*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*}*/
 .display-container {
-    background-color: darkgrey;
-    height: 100px;
+  background-color: darkgrey;
+  height: 100px;
 }
 
 .calculator {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    width: 416px;
-    justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 416px;
+  justify-content: center;
 }
 
 .display-text {
-    color: black;
+  color: black;
 }
 
 .secondary-row-container {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .operations-container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .stretched {
-    flex-grow: 2;
+  flex-grow: 2;
 }
